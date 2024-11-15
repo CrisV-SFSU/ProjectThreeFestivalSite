@@ -11,23 +11,25 @@ body {
   width: 100%;
 }
 
-a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-}
-
 h1 {
-  font-size: 144pt;
+  font-family: "Pangram Sans Extra Bold";
+  color: #ED1C24;
+  font-size: 72pt;
   font-weight: bolder;
 }
 
 h3 {
-  font-size: 32pt;
+  font-size: 20pt;
 }
 
 p {
-  font-size: 24pt;
+  font-size: 16pt;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: black;
   font-weight: bold;
 }
 
@@ -40,10 +42,9 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
   height: 8%;
   top: 0;
-  border-bottom: 0.25rem solid black;
+  border-bottom: 0.1rem solid black;
   background-color: white;
   z-index: 4;
 }
@@ -56,7 +57,7 @@ nav {
 }
 
 .logo img {
-  max-width: 150px;
+  max-width: 80px;
   height: auto;
 }
 
@@ -66,7 +67,7 @@ main {
   align-items: center;
   padding-left: 10%;
   gap: 10%;
-  background-image: url("/img/bg-pattern.png");
+  background-image: url("../img/bg-pattern.png");
   background-color: rgba(255, 255, 255, 0.9);
   background-blend-mode: lighten;
 }
@@ -84,7 +85,7 @@ main img {
 .cfa-logo {
   flex-grow: 1;
   width: 100%;
-  min-width: 1500px;
+  min-width: 800px;
 }
 
 footer {
@@ -95,11 +96,16 @@ footer {
   height: 8%;
   padding-left: 10%;
   padding-right: 10%;
-  border-top: 0.25rem solid black;
+  border-top: 0.1rem solid black;
   background-color: white;
 }
-
+ 
 @font-face {
   font-family: "Pangram Sans";
   src: url(../fonts/PPPangramSans-Regular.woff2);
+}
+
+@font-face {
+  font-family: "Pangram Sans Extra Bold";
+  src: url(../fonts/PPPangramSans-Extrabold.woff2);
 }

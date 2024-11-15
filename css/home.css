@@ -18,7 +18,7 @@ a {
 }
 
 h3 {
-  font-size: 32pt;
+  font-size: 20pt;
 }
 
 /* Navbar Styling */
@@ -30,10 +30,9 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
   height: 8%;
   top: 0;
-  border-bottom: 0.25rem solid black;
+  border-bottom: 0.10rem solid black;
   background-color: white;
   z-index: 4;
 }
@@ -46,7 +45,7 @@ nav {
 }
 
 .logo img {
-  max-width: 150px;
+  max-width: 80px;
   height: auto;
 }
 
@@ -55,7 +54,8 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("/img/bg-pattern.png");
+  height: 90%;
+  background-image: url("../img/bg-pattern.png");
   background-color: rgba(255, 255, 255, 0.9);
   background-blend-mode: lighten;
 }
@@ -68,16 +68,16 @@ main img {
 .main-logo {
   width: 100%;
   z-index: 2;
-  max-width: 2500px;
+  max-width: 1000px;
 }
 
 .cta-btn {
   position: absolute;
-  top: 80%;
-  right: 24%;
+  top: 75%;
+  right: 30%;
   width: 100%;
   z-index: 3;
-  max-width: 900px;
+  max-width: 400px;
 }
 
 footer {
@@ -88,7 +88,7 @@ footer {
   height: 8%;
   padding-left: 10%;
   padding-right: 10%;
-  border-top: 0.25rem solid black;
+  border-top: 0.10rem solid black;
   background-color: white;
 }
 

@@ -18,7 +18,7 @@ a {
 }
 
 h3 {
-  font-size: 32pt;
+  font-size: 20pt;
 }
 
 /* Navbar Styling */
@@ -30,10 +30,9 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
   height: 8%;
   top: 0;
-  border-bottom: 0.25rem solid black;
+  border-bottom: 0.1rem solid black;
   background-color: white;
   z-index: 4;
 }
@@ -46,17 +45,16 @@ nav {
 }
 
 .logo img {
-  max-width: 150px;
+  max-width: 80px;
   height: auto;
 }
 
 main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 20rem;
+  grid-column-gap: 8rem;
   padding-left: 10%;
   padding-right: 10%;
-  height: 100%;
   background-image: url("../img/bg-pattern.png");
   background-color: rgba(255, 255, 255, 0.9);
   background-blend-mode: lighten;
@@ -69,13 +67,13 @@ main {
   /* background-color: rgba(255, 255, 255, 0.8); */
   /* border: 1px solid rgba(0, 0, 0, 0.8); */
   padding: 1rem;
-  font-size: 36pt;
+  font-size: 16pt;
   margin-bottom: 5rem;
 }
 
 .grid-item ul {
   padding-top: 2rem;
-  padding-left: 6rem;
+  padding-left: 3rem;
 }
 
 .grid-item ul li {
@@ -83,9 +81,9 @@ main {
 }
 
 .grid-item h2 {
-  color: red;
+  color: #ED1C24;
   font-family: "Pangram Sans Extra Bold";
-  font-size: 48pt;
+  font-size: 26pt;
   margin-bottom: 1.4rem;
 }
 
@@ -100,12 +98,12 @@ main {
   object-fit: cover;
   width: 100%;
   height: 20%;
-  margin-bottom: 10rem;
+  margin-bottom: 2rem;
 }
 
 .grid-header img {
   width: 100%;
-  max-width: 1000px;
+  max-width: 400px;
 }
 
 footer {
@@ -116,7 +114,7 @@ footer {
   height: 8%;
   padding-left: 10%;
   padding-right: 10%;
-  border-top: 0.25rem solid black;
+  border-top: 0.1rem solid black;
   background-color: white;
 }
 
