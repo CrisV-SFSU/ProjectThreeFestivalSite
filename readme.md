@@ -17,6 +17,8 @@ This site aims to be responsive with the use of Flexbox, Grid, & media queries t
 
 For the animations, I primarily used CSS pseudo classes to enhance the interactivity of the site. 
 
+If you would like to see the wireframe for this site, please go here: https://www.figma.com/proto/X25tdycjEvptTgjWFGvXOO/DES-228----Project-3-Wireframe?page-id=0%3A1&node-id=22-583&node-type=frame&viewport=-2431%2C-2891%2C0.7&t=EcW7ok6rmatjarky-1&scaling=contain&content-scaling=fixed
+
 # Acknowledgements
 
 Typeface: "Pangram Sans" by Pangram Pangram (https://pangrampangram.com/products/pangram-sans)
