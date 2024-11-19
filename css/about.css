@@ -33,6 +33,11 @@ a {
   font-weight: bold;
 }
 
+a:hover {
+  font-family: "Pangram Sans SemiBold";
+  text-decoration: underline;
+}
+
 /* Navbar Styling */
 nav {
   padding-left: 10%;
@@ -103,6 +108,11 @@ footer {
 @font-face {
   font-family: "Pangram Sans";
   src: url(../fonts/PPPangramSans-Regular.woff2);
+}
+
+@font-face {
+  font-family: "Pangram Sans SemiBold";
+  src: url(../fonts/PPPangramSans-Semibold.woff2);
 }
 
 @font-face {
