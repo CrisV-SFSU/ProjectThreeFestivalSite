@@ -21,8 +21,8 @@ If you would like to see the wireframe for this site, please go here: https://ww
 
 # Sticker Mockups
 
-Here's the link to the sticker artwork: !([SF For Education sticker](https://sfsu.box.com/s/hbcvo5ktp0s78u3i5nyzh9io10v63lsg))
-Here's the link to the sticker on a laptop: !([SF For Education sticker on a laptop](https://sfsu.box.com/s/hbcvo5ktp0s78u3i5nyzh9io10v63lsg))
+Here's the link to the sticker artwork: [SF For Education sticker](https://sfsu.box.com/s/hbcvo5ktp0s78u3i5nyzh9io10v63lsg)
+Here's the link to the sticker on a laptop: [SF For Education sticker on a laptop](https://sfsu.box.com/s/hbcvo5ktp0s78u3i5nyzh9io10v63lsg)
 
 # Acknowledgements
 
