@@ -18,6 +18,11 @@ h1 {
   font-weight: bolder;
 }
 
+h2 {
+  font-size: 32pt;
+  margin-bottom: 1.4rem;
+}
+
 h3 {
   font-size: 20pt;
 }
@@ -77,6 +82,7 @@ main {
   flex-direction: row;
   align-items: center;
   padding-left: 10%;
+  padding-top: 3%;
   gap: 10%;
   background-image: url("../img/bg-pattern.png");
   background-color: rgba(255, 255, 255, 0.9);
@@ -97,6 +103,28 @@ main img {
   flex-grow: 1;
   width: 100%;
   min-width: 800px;
+}
+
+.shop {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.sticker {
+  width: 100%;
+  margin-bottom: 4rem;
+}
+
+.shop a {
+  color: white;
+  font-size: 18pt;
+  background-color: black;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+}
+
+.sticker img {
+  width: 80%;
 }
 
 footer {
