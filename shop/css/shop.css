@@ -94,15 +94,44 @@ main img {
   background-size: cover;
 }
 
+.cta-btn {
+  width: 100%;
+  max-width: 500px;
+  padding: 1.1rem 2rem;
+  text-align: center;
+  background-color: black;
+  border-radius: 4rem;
+}
+
+.cta-btn a {
+  color: white;
+  font-size: 32pt;
+}
+
+.cta-btn:hover {
+  background-color: #ed1c24;
+  transition-duration: 0.2s;
+  font-family: "Pangram Sans SemiBold";
+  color: white;
+}
+
 .about {
   display: flex;
   flex-direction: column;
 }
 
-.cfa-logo {
-  flex-grow: 1;
+.shop {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.sticker {
   width: 100%;
-  min-width: 800px;
+  margin-bottom: 4rem;
+}
+
+.sticker img {
+  width: 40%;
 }
 
 footer {

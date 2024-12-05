@@ -69,8 +69,6 @@ main {
 }
 
 .grid-item {
-  /* background-color: rgba(255, 255, 255, 0.8); */
-  /* border: 1px solid rgba(0, 0, 0, 0.8); */
   padding: 1rem;
   font-size: 16pt;
   margin-bottom: 5rem;
@@ -86,7 +84,7 @@ main {
 }
 
 .grid-item h2 {
-  color: #ED1C24;
+  color: #ed1c24;
   font-family: "Pangram Sans Extra Bold";
   font-size: 26pt;
   margin-bottom: 1.4rem;
@@ -109,6 +107,11 @@ main {
 .grid-header img {
   width: 100%;
   max-width: 400px;
+}
+
+.grid-item img {
+  margin-top: 2rem;
+  width: 100%;
 }
 
 footer {

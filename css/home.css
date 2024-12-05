@@ -23,16 +23,16 @@ a:hover {
 }
 
 h1 {
-  font-size: 52pt;
+  font-size: 42pt;
   text-align: center;
   padding-left: 10%;
   padding-right: 10%;
-  margin-bottom: 3%;
   text-transform: uppercase;
+  font-family: "Pangram Sans SemiBold";
 }
 
 h2 {
-  font-size: 46pt;
+  font-size: 32pt;
   text-align: center;
   padding-left: 10%;
   padding-right: 10%;
@@ -99,12 +99,23 @@ main img {
 .cta-btn {
   width: 100%;
   max-width: 700px;
+  padding: 1.1rem 2rem;
+  text-align: center;
   margin: auto;
+  background-color: black;
+  border-radius: 4rem;
 }
 
-.cta-btn:hover{
-  max-width: 800px;
-  transition-duration: 1s;
+.cta-btn a {
+  color: white;
+  font-size: 36pt;
+}
+
+.cta-btn:hover {
+  background-color: #ed1c24;
+  transition-duration: 0.2s;
+  font-family: "Pangram Sans SemiBold";
+  color: white;
 }
 
 footer {
@@ -129,8 +140,6 @@ footer {
   src: url(../fonts/PPPangramSans-Semibold.woff2);
 }
 
-
-
 @media screen and (max-width: 768px) {
   h1 {
     font-size: 20pt;
@@ -140,7 +149,7 @@ footer {
     margin-bottom: 3%;
     text-transform: uppercase;
   }
-  
+
   h2 {
     font-size: 16pt;
     text-align: center;
@@ -148,32 +157,32 @@ footer {
     padding-right: 10%;
     margin-bottom: 3%;
   }
-  
+
   h3 {
     font-size: 14pt;
   }
-  
+
   nav {
     padding-right: 10%;
     gap: 20%;
   }
-  
+
   main {
     height: 100%;
   }
-  
+
   .cta-btn {
     width: 100%;
     max-width: 400px;
     margin: auto;
   }
-  
+
   footer {
     height: 8%;
     gap: 10%;
   }
 
-  footer  h3 {
-     font-size: 12pt;
-   }
+  footer h3 {
+    font-size: 12pt;
+  }
 }
