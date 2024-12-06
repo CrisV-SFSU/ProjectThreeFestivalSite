@@ -24,11 +24,12 @@ a:hover {
 
 h1 {
   font-size: 42pt;
+  color: #ed1c24;
   text-align: center;
   padding-left: 10%;
   padding-right: 10%;
   text-transform: uppercase;
-  font-family: "Pangram Sans SemiBold";
+  font-family: "Pangram Sans Extra Bold";
 }
 
 h2 {
@@ -130,15 +131,6 @@ footer {
   background-color: white;
 }
 
-@font-face {
-  font-family: "Pangram Sans";
-  src: url(../fonts/PPPangramSans-Regular.woff2);
-}
-
-@font-face {
-  font-family: "Pangram Sans SemiBold";
-  src: url(../fonts/PPPangramSans-Semibold.woff2);
-}
 
 @media screen and (max-width: 768px) {
   h1 {
@@ -176,13 +168,28 @@ footer {
     max-width: 400px;
     margin: auto;
   }
-
+  
   footer {
     height: 8%;
     gap: 10%;
   }
-
+  
   footer h3 {
     font-size: 12pt;
   }
+}
+
+@font-face {
+  font-family: "Pangram Sans";
+  src: url(../fonts/PPPangramSans-Regular.woff2);
+}
+
+@font-face {
+  font-family: "Pangram Sans SemiBold";
+  src: url(../fonts/PPPangramSans-Semibold.woff2);
+}
+
+@font-face {
+  font-family: "Pangram Sans Extra Bold";
+  src: url(../fonts/PPPangramSans-Extrabold.woff2);
 }
