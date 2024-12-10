@@ -53,7 +53,6 @@ a:hover {
 nav {
   padding-left: 10%;
   padding-right: 10%;
-  font-size: 3rem;
   position: sticky;
   display: flex;
   flex-direction: row;
@@ -65,7 +64,6 @@ nav {
   background-color: white;
   z-index: 4;
 }
-
 .links-wrapper {
   display: flex;
   gap: 3rem;

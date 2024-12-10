@@ -26,8 +26,8 @@ h1 {
   font-size: 42pt;
   color: #ed1c24;
   text-align: center;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 30%;
+  padding-right: 30%;
   text-transform: uppercase;
   font-family: "Pangram Sans Extra Bold";
 }
@@ -96,6 +96,7 @@ main img {
   width: 100%;
   z-index: 2;
   max-width: 1000px;
+  min-width: 200px;
 }
 
 .cta-btn {

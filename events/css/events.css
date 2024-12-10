@@ -30,7 +30,6 @@ h3 {
 nav {
   padding-left: 10%;
   padding-right: 10%;
-  font-size: 3rem;
   position: sticky;
   display: flex;
   flex-direction: row;
@@ -42,7 +41,6 @@ nav {
   background-color: white;
   z-index: 4;
 }
-
 .links-wrapper {
   display: flex;
   gap: 3rem;
@@ -85,13 +83,18 @@ main img {
 
 .grid-item ul li {
   margin-bottom: 1rem;
+  font-size: 20pt;
 }
 
 .grid-item h2 {
   color: #ed1c24;
   font-family: "Pangram Sans Extra Bold";
-  font-size: 26pt;
+  font-size: 29pt;
   margin-bottom: 1.4rem;
+}
+
+.grid-item p {
+font-size: 20pt;
 }
 
 .grid-item {
